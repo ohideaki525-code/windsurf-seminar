@@ -177,8 +177,8 @@
             </div>
           </div>
 
-          <div class="relative hidden md:block">
-            <div class="aspect-[4/3] overflow-hidden rounded-3xl border border-ink-700 bg-ink-800/50 shadow-soft">
+          <div class="relative">
+            <div class="aspect-[4/3] overflow-hidden rounded-3xl border border-ink-700 bg-ink-800/50 shadow-soft md:aspect-[16/9]">
               <img
                 src="./assets/hero.jpg"
                 alt="セミナーのイメージ画像（差し替え用）"
@@ -251,17 +251,17 @@
             </p>
           </div>
 
-          <div class="mt-10 grid gap-6 lg:grid-cols-2">
-            <div class="rounded-3xl border border-ink-700 bg-ink-800/50 p-7 shadow-sm backdrop-blur-sm">
-              <p class="text-sm font-semibold text-accent-400">間違い</p>
-              <h3 class="mt-2 text-xl font-bold text-ink-50">「筋力不足」が原因</h3>
-              <p class="mt-3 text-sm leading-relaxed text-ink-300">
-                筋トレすれば姿勢は良くなる。腹筋背筋を鍛えれば解決する。
-              </p>
-            </div>
-            <div class="relative">
-              <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
-                <span class="text-2xl text-accent-400">→</span>
+          <div class="mt-10 space-y-8 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-6">
+            <div class="space-y-6">
+              <div class="rounded-3xl border border-ink-700 bg-ink-800/50 p-7 shadow-sm backdrop-blur-sm">
+                <p class="text-sm font-semibold text-accent-400">間違い</p>
+                <h3 class="mt-2 text-xl font-bold text-ink-50">「筋力不足」が原因</h3>
+                <p class="mt-3 text-sm leading-relaxed text-ink-300">
+                  筋トレすれば姿勢は良くなる。腹筋背筋を鍛えれば解決する。
+                </p>
+              </div>
+              <div class="flex justify-center lg:hidden">
+                <span class="text-3xl text-accent-400 animate-pulse">↓</span>
               </div>
               <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-br from-accent-900/20 to-accent-800/10 p-7 shadow-neon backdrop-blur-sm">
                 <p class="text-sm font-semibold text-accent-200">真実</p>
@@ -271,16 +271,16 @@
                 </p>
               </div>
             </div>
-            <div class="rounded-3xl border border-ink-700 bg-ink-800/50 p-7 shadow-sm backdrop-blur-sm">
-              <p class="text-sm font-semibold text-accent-400">間違い</p>
-              <h3 class="mt-2 text-xl font-bold text-ink-50">「意識」で直る</h3>
-              <p class="mt-3 text-sm leading-relaxed text-ink-300">
-                姿勢を意識すれば良くなる。気がついたときに直せば改善する。
-              </p>
-            </div>
-            <div class="relative">
-              <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
-                <span class="text-2xl text-accent-400">→</span>
+            <div class="space-y-6">
+              <div class="rounded-3xl border border-ink-700 bg-ink-800/50 p-7 shadow-sm backdrop-blur-sm">
+                <p class="text-sm font-semibold text-accent-400">間違い</p>
+                <h3 class="mt-2 text-xl font-bold text-ink-50">「意識」で直る</h3>
+                <p class="mt-3 text-sm leading-relaxed text-ink-300">
+                  姿勢を意識すれば良くなる。気がついたときに直せば改善する。
+                </p>
+              </div>
+              <div class="flex justify-center lg:hidden">
+                <span class="text-3xl text-accent-400 animate-pulse">↓</span>
               </div>
               <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-br from-accent-900/20 to-accent-800/10 p-7 shadow-neon backdrop-blur-sm">
                 <p class="text-sm font-semibold text-accent-200">真実</p>
@@ -397,29 +397,51 @@
             </p>
           </div>
 
-          <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <div class="mt-10 space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-6">
             <div class="rounded-3xl bg-ink-800/50 p-7 shadow-sm ring-1 ring-ink-700 backdrop-blur-sm">
               <p class="text-sm font-semibold text-accent-400">従来の方法</p>
               <p class="mt-2 text-sm leading-relaxed text-ink-300">
                 筋トレ・ストレッチ・意識づけ。その場の変化はあるが、維持は難しい。
               </p>
             </div>
-            <div class="relative">
-              <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
-                <span class="text-2xl text-accent-400">→</span>
+            <div class="flex flex-col items-center space-y-4">
+              <div class="flex justify-center lg:hidden">
+                <span class="text-3xl text-accent-400 animate-pulse">↓</span>
               </div>
-              <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-br from-accent-900/20 to-accent-800/10 p-7 shadow-neon backdrop-blur-sm">
+              <div class="relative hidden lg:block">
+                <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
+                  <span class="text-2xl text-accent-400">→</span>
+                </div>
+                <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-br from-accent-900/20 to-accent-800/10 p-7 shadow-neon backdrop-blur-sm">
+                  <p class="text-sm font-semibold text-accent-200">このセミナー</p>
+                  <p class="mt-2 text-sm leading-relaxed text-ink-300">
+                    神経科学×運動学習。無意識の変化を促し、維持できる体を再設計。
+                  </p>
+                </div>
+              </div>
+              <div class="lg:hidden rounded-3xl border border-accent-500/30 bg-gradient-to-br from-accent-900/20 to-accent-800/10 p-7 shadow-neon backdrop-blur-sm">
                 <p class="text-sm font-semibold text-accent-200">このセミナー</p>
                 <p class="mt-2 text-sm leading-relaxed text-ink-300">
                   神経科学×運動学習。無意識の変化を促し、維持できる体を再設計。
                 </p>
               </div>
-            </div>
-            <div class="relative">
-              <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
-                <span class="text-2xl text-accent-400">→</span>
+              <div class="flex justify-center lg:hidden">
+                <span class="text-3xl text-accent-400 animate-pulse">↓</span>
               </div>
-              <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-r from-accent-600 to-accent-500 px-7 py-4 shadow-neon backdrop-blur-sm">
+            </div>
+            <div class="flex flex-col items-center space-y-4">
+              <div class="relative hidden lg:block">
+                <div class="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 flex items-center">
+                  <span class="text-2xl text-accent-400">→</span>
+                </div>
+                <div class="rounded-3xl border border-accent-500/30 bg-gradient-to-r from-accent-600 to-accent-500 px-7 py-4 shadow-neon backdrop-blur-sm">
+                  <p class="text-base font-bold text-white">結果</p>
+                  <p class="mt-2 text-base font-semibold leading-relaxed text-white">
+                    90分で「一生モノの技術」を習得。明日から現場で使える。
+                  </p>
+                </div>
+              </div>
+              <div class="lg:hidden rounded-3xl border border-accent-500/30 bg-gradient-to-r from-accent-600 to-accent-500 px-7 py-4 shadow-neon backdrop-blur-sm">
                 <p class="text-base font-bold text-white">結果</p>
                 <p class="mt-2 text-base font-semibold leading-relaxed text-white">
                   90分で「一生モノの技術」を習得。明日から現場で使える。
